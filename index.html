@@ -3,12 +3,46 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="../dist/output.css" rel="stylesheet">
-<link rel="stylesheet" href="./src/style.css">
+<style>
+
+body{
+    background-color: #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Fira Code', monospace;
+}
+
+body a{
+    color:white;
+    text-decoration: none;
+}
+
+.animate-bounce {
+    animation: bounce 1s infinite;
+}
+
+.text-9xl {
+    font-size: 8rem/* 128px */;
+    line-height: 1;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+}
+</style>
 </head>
 <body>
-    <div class="flex items-center justify-center h-screen">
-        <h1 class="text-9xl text_pq text-white animate-bounce">
+    <div>
+        <h1 class="text-9xl text_pq animate-bounce">
             <a href="./src/index.html">&lt;TAGPad&gt;</a>
         </h1>
     </div>
