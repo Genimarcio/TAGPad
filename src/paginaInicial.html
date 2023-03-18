@@ -9,39 +9,43 @@
 <body class="bg-color_Geral text-white mt-10 px-10">
     <header class="flex items-center justify-between mb-28">
         <h1 class="text-2xl sm:text-4xl md:text-5xl font-Fira_Code">&lt;TAGPad&gt;</h1>
-        <a href="index.html" class="font-Fira_Code text-xl md:text-2xl text-color_Letras">Voltar</a>
+        <a href="index.html" class="font-Fira_Code text-xl md:text-2xl text-color_Letras">{ Voltar }</a>
     </header>
     <main class="flex flex-col">
 
-        <div class="flex items-center justify-between sm:justify-around md:justify-around sm:px-38 md:px-28">
+        <div class="flex flex-col items-center justify-between sm:justify-around md:justify-around sm:px-38 md:px-28 space-y-4">
             <article class="flex flex-col">
-                <p class="text-color_buscaTAG text-xl sm:text-4xl md:text-5xl font-Fira_Code">&lt;buscarElemento&gt;</p>
+                <p class="text-color_buscaTAG text-2xl sm:text-4xl md:text-4xl font-Fira_Code">const buscarElemento = {</p>
             </article>
             
             <aside>
-                <ul class="flex flex-col md:space-y-2">
-                    <li class="text-color_HTML font-bold text-md sm:text-2xl md:text-2xl"><a href="./consultaHTML.html">HTML</a></li>
-                    <li class="text-color_CSS font-bold text-md sm:text-2xl md:text-2xl"><a href="./consultaCSS.html">CSS</a></li>
-                    <li class="text-color_REACT font-bold text-md sm:text-2xl md:text-2xl"><a href="./consultaREACT.html">REACT</a></li>
+                <ul class="flex items-center md:space-x-2">
+                    <li class="text-color_HTML font-bold text-xl sm:text-2xl md:text-3xl"><a href="./consultaHTML.html"> 'HTML' , </a></li>
+                    <li class="text-color_CSS font-bold text-xl sm:text-2xl md:text-3xl"><a href="./consultaCSS.html">'CSS' , </a></li>
+                    <li class="text-color_REACT font-bold text-xl sm:text-2xl md:text-3xl"><a href="./consultaREACT.html">'REACT' </a></li>
+                    <li class="text-color_buscaTAG text-3xl sm:text-4xl md:text-4xl font-Fira_Code">&nbsp}</li>
                 </ul>
             </aside>
+
         </div>
 
         <br><br><br><br>
         
-        <div class="flex items-center sm:px-38 md:px-20">
+        <div class="flex flex-col items-center justify-between sm:justify-between md:justify-around">
             <article class="flex flex-col">
                 <a href="#">
-                    <p class="font-Fira_Code text-color_Letras text-2xl sm:text-4xl md:text-5xl">&lt;cadastrarNovo</p>
-                    <p class="font-Fira_Code text-color_Letras text-2xl sm:text-4xl md:text-5xl">Elemento&gt;</p>
+                    <p class="font-Fira_Code text-color_Letras text-2xl sm:text-4xl md:text-5xl">var cadastrarNovaTag = [ </p>
                 </a>
             </article>
             
-            <!-- <aside>
-                <a href="#">
-                    <button class="font-Fira_Code text-color_Letras text-sm sm:text-2xl md:text-2xl">CONSULTAR</button>
-                </a>
-            </aside> -->
+            <aside>
+                <ul class="flex items-center justify-around md:space-x-2">
+                    <li class="text-color_HTML font-bold text-md sm:text-2xl md:text-2xl"><a href="./cadastroHTML.html">'HTML' ,</a></li>
+                    <li class="text-color_CSS font-bold text-md sm:text-2xl md:text-2xl"><a href="./cadastroCSS.html">'CSS' ,</a></li>
+                    <li class="text-color_REACT font-bold text-md sm:text-2xl md:text-2xl"><a href="./cadastroREACT.html">'REACT' </a></li>
+                    <li class="font-Fira_Code text-color_Letras text-2xl sm:text-4xl md:text-5xl">&nbsp]</li>
+                </ul>
+            </aside>
 
         </div>
 
